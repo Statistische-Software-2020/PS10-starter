@@ -7,11 +7,6 @@ output:
  html_document: default
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE,
-                      eval = FALSE)
-```
-
 # Resources
 
 1) Read chapters 10-12 on data wrangling in [R4DS](https://r4ds.had.co.nz/r-markdown.html).
@@ -52,7 +47,7 @@ The patients have a unique id (`CombinedID`) which can be mapped to the data set
 For each patient, multiple days have been reported.
 We have information on the `caloriesPercentage`, the percentage of administered calories w.r.t. the recommended amount, and the `proteinGproKG`, the grams of administered protein per Kg body weight.
 
-```{r}
+```{r message = FALSE}
 library(pammtools)
 head(daily)
 ```
@@ -88,6 +83,8 @@ What is the benefit of this compared to the exploratory analysis?
 
 e) Use `ggplot2` to examine the association of the `BMI` and the `ApacheIIscore` for men and women separately.
 Hint: `facet`.
+
+\pagebreak
 
 ```{r}
 sessionInfo()
