@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE,
 2) Optionally, complete the DataCamp Units provided on the Moodle page for this topic.
 
 3) Accept the invitation to the assignment of this problem set:
-LINK
+https://classroom.github.com/a/mbhvyPEa
 
 # Application
 
