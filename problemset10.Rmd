@@ -9,7 +9,7 @@ output:
 
 # Resources
 
-1) Read chapters 10-12 on data wrangling in [R4DS](https://r4ds.had.co.nz/r-markdown.html).
+1) Read chapters 9-12 on data wrangling in [R4DS](https://r4ds.had.co.nz/r-markdown.html).
 
 2) Optionally, complete the DataCamp Units provided on the Moodle page for this topic.
 
@@ -22,21 +22,8 @@ In the repository of the assignment, you find a `.csv` file.
 The data set assesses the association of the temperature on the day of launch and the fact that there was thermal distress.
 The file has two columns of significance: the temperature in degrees Fahrenheit on the day of the launch and a dichotomous feature that indicates if there was thermal distress during the launch.
 
-a) The `.csv` format of the file `shuttle.csv` is a bit odd.
+The `.csv` format of the file `shuttle.csv` is a bit odd.
 Read it in using the `readr` package.
-
-There is an additional data set with details on the launches in a separate `.csv`.
-This data set indicates the executive in charge of the respective launch.
-
-b) Read in the data set `names.csv` using the `readr` package and add it to the `shuttle` data set.
-
-The data set is very messy.
-The strings are not very standardised and do not 100%ly correspond to the three executives "John Miller", "Aaron Smith" and "Newt Montgomery".
-Either there are typos or the name is reported very informally.
-
-c) Use the `stringr` package to (as much as possible!) convert the strings to the intended three executives.
-Hint: Maybe think of the use of `regex` and look for matches.
-Note that this task can be very demanding, so don't waste all of your time if you do not get there.
 
 # Transfer
 
